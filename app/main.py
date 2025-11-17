@@ -27,6 +27,7 @@ def predict(req: PredictRequest):
     model = load_model()
     X = np.array(req.features).reshape(1, -1)
     pred = model.predict(X)[0]
-    probs = model.predict_proba(X)[0].tolist()
+    probs = model.predict_proba(X)[0]
+    # .tolist()
 
     return PredictResponse(prediction=int(pred), probabilities=probs)

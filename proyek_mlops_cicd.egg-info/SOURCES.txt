@@ -1,0 +1,14 @@
+setup.py
+app/__init__.py
+app/main.py
+app/model_loader.py
+ml/__init__.py
+ml/config.py
+ml/evaluate.py
+ml/train.py
+proyek_mlops_cicd.egg-info/PKG-INFO
+proyek_mlops_cicd.egg-info/SOURCES.txt
+proyek_mlops_cicd.egg-info/dependency_links.txt
+proyek_mlops_cicd.egg-info/top_level.txt
+tests/test_app.py
+tests/test_model.py
